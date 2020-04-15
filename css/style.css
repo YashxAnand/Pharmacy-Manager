@@ -1,426 +1,430 @@
-body{
-	margin:0;
-	padding:0;
-	background-color: #fff5a0;
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff5a0;
 }
 
-#edit-user-title{
-	font-size: 300%;
-	font-family: Arial, Helvetica, sans-serif;
-	text-align: center;
+#edit-user-title {
+  font-size: 300%;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
 }
 
 #login {
-    margin: 0 auto;
-    width: 50%;
+  margin: 0 auto;
+  width: 50%;
 }
 
 #logo {
-    border-radius: 50%;
+  border-radius: 50%;
 }
 
-#top-bar{
-	font-size: 200%;
+#top-bar {
+  font-size: 200%;
 }
 
-#main-container{
-	background-color: #fff5a0;
-	padding-bottom: 6%;
-	font-family: Arial, Helvetica, sans-serif;
+#main-container {
+  background-color: #fff5a0;
+  padding-bottom: 6%;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-#main-container-pages{
-	background-color: #fff5a0;
-	padding-bottom: 5%;
-	float: left;
-	width: 100%;
-	min-height: 100vh;
-	font-family: Arial, Helvetica, sans-serif;
+#main-container-pages {
+  background-color: #fff5a0;
+  padding-bottom: 5%;
+  float: left;
+  width: 100%;
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-#login-container{
-	background-color: white;
-	margin: 0 auto;
-	padding: 3% 1% 2% 1%;
-	margin-bottom: 0;
-	margin-top: 5%;
-	min-width: 400px;
-	width: 35%;
-	border-radius: 10px;
-	font-family: helvetica, sans-serif;
-	font-size: 120%;
+#login-container {
+  background-color: white;
+  margin: 0 auto;
+  padding: 3% 1% 2% 1%;
+  margin-bottom: 0;
+  margin-top: 5%;
+  min-width: 400px;
+  width: 35%;
+  border-radius: 10px;
+  font-family: helvetica, sans-serif;
+  font-size: 120%;
 }
 
-
-#signup-container{
-	background-color: white;
-	margin: 0 auto;
-	padding: 3% 2% 3% 2%;
-	margin-top: 6%;
-	margin-bottom: 6%;
-	min-width: 400px;
-	width: 40%;
-	border-radius: 10px;
-	font-family: helvetica, sans-serif;
-	font-size: 120%;
+#signup-container {
+  background-color: white;
+  margin: 0 auto;
+  padding: 3% 2% 3% 2%;
+  margin-top: 6%;
+  margin-bottom: 6%;
+  min-width: 400px;
+  width: 40%;
+  border-radius: 10px;
+  font-family: helvetica, sans-serif;
+  font-size: 120%;
 }
-.error{
-    width:130%;
-    position:relative;
-    right:15%;
-}
-
-#role{
-    width: 100%;
-    height: 40px;
-    border-radius: 5px;
-    border:1px solid #CED4DA;
+.error {
+  width: 130%;
+  position: relative;
+  right: 15%;
 }
 
-#menu-toggler{
-	border-radius: 5px;
+#role {
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #ced4da;
 }
 
-#content{
-	margin-left: 23%;
-	margin-top: 5%;
-	width: 70%;
-	overflow: auto;
+#menu-toggler {
+  border-radius: 5px;
 }
 
-#content img{
-	border-radius: 50%;
+#content {
+  margin-left: 23%;
+  margin-top: 5%;
+  width: 70%;
+  overflow: auto;
 }
 
-.off{
-	float:left;
-	position: fixed;
-	transition: all 0.5s;
-	height: 100vh;
-	width: 0;
-	overflow-x: hidden;
-	background-color: red;
-	background:linear-gradient(to bottom,red,#FF6A18)
+#content img {
+  border-radius: 50%;
 }
 
-.off a{
-	width: 70%;
-	color: black;
-	font-family: helvetica,sans-serif;
-	float: left;
-	font-size: 150%;
-	margin-top: 30%;
-	margin-left: 20%;
-	text-align: center;
+.off {
+  float: left;
+  position: fixed;
+  transition: all 0.5s;
+  height: 100vh;
+  width: 0;
+  overflow-x: hidden;
+  background-color: red;
+  background: linear-gradient(to bottom, red, #ff6a18);
 }
 
-.off a:hover{
-	text-decoration: none;
-	color: white;
+.off a {
+  width: 70%;
+  color: black;
+  font-family: helvetica, sans-serif;
+  float: left;
+  font-size: 150%;
+  margin-top: 30%;
+  margin-left: 20%;
+  text-align: center;
 }
 
-#users-tab{
-			margin-left: 24%;
-			margin-top: 7%;
-			width: 51%;
-			min-width: 685px;
-		}
+.off a:hover {
+  text-decoration: none;
+  color: white;
+}
 
-		#pills-tab{
-			background-color: white;
-			width: 40.5%;
-			border-top-right-radius: 5px;
-			border-top-left-radius: 5px;
-		}
+#users-tab {
+  margin-left: 24%;
+  margin-top: 7%;
+  width: 51%;
+  min-width: 685px;
+}
 
-		#pills-tabContent{
-			border-radius: 5px;
-			background-color: white;
-			min-height: 400px; 
-			height: 100%;
-			margin-top: -16px;
-			padding: 4%;
-			overflow: hidden;
-		}
+#pills-tab {
+  background-color: white;
+  width: 40.5%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
 
-		.delete{
-			margin-left:20%;
-			width: 23px;
-			border:none;
-			background-image: url('../Images/delete.jpg');
-			background-size: cover;
-		}
+#pills-tabContent {
+  border-radius: 5px;
+  background-color: white;
+  min-height: 400px;
+  height: 100%;
+  margin-top: -16px;
+  padding: 4%;
+  overflow: hidden;
+}
 
-		.edit{
-			margin-left:20%;
-			width: 23px;
-			border:none;
-			background-image: url('../Images/edit.jpg');
-			background-size: cover;
-		}
+.delete {
+  margin-left: 20%;
+  width: 23px;
+  border: none;
+  background-image: url("../Images/delete.jpg");
+  background-size: cover;
+}
 
-		.update{
-			margin-left:20%;
-			width: 23px;
-			border:none;
-			background-image: url('../Images/update.jpg');
-			background-size: cover;
-		}
+.edit {
+  margin-left: 20%;
+  width: 23px;
+  border: none;
+  background-image: url("../Images/edit.jpg");
+  background-size: cover;
+}
 
-		.add{
-			margin-left:20%;
-			width: 23px;
-			border:none;
-			background-image: url('../Images/add.jpg');
-			background-size: cover;
-		}
+.update {
+  margin-left: 20%;
+  width: 23px;
+  border: none;
+  background-image: url("../Images/update.jpg");
+  background-size: cover;
+}
 
-		#dialog{
-			width: 400px;
-			height: 230px;
-			position: absolute;
-			top:40%;
-			left: 30%;
-			border:1px solid grey;
-			border-radius: 10px;
-			background-color: #FFF5A0;
-			font-family: helvetica,sans-serif;
-			font-size: 150%;
-			padding-top: 15px;
-			padding-left: 15px;
-			opacity: 0;
-		}
-		
-		#yes{
-			float: left;
-			margin-left:20%;
-		}
+.add {
+  margin-left: 20%;
+  width: 23px;
+  border: none;
+  background-image: url("../Images/add.jpg");
+  background-size: cover;
+}
 
-		#no{
-			float: right;
-			margin-right: 35%;
-		}
+#dialog {
+  width: 400px;
+  height: 230px;
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  border: 1px solid grey;
+  border-radius: 10px;
+  background-color: #fff5a0;
+  font-family: helvetica, sans-serif;
+  font-size: 150%;
+  padding-top: 15px;
+  padding-left: 15px;
+  opacity: 0;
+}
 
-		#add-user,#edit-user,#add-medicine{
-			position: absolute;
-			top:15%;
-			left: 30%;
-			border:1px solid grey;
-			border-radius: 10px;
-			background-color: #FFF5A0;
-			font-family: helvetica,sans-serif;
-			height: 75%;
-			padding: 10px 15px 0 15px;
-			font-size: 150%;
-			opacity: 0;
-			overflow: auto;
-		}
+#yes {
+  float: left;
+  margin-left: 20%;
+}
 
-		#add-medicine{
-			position: absolute;
-			top:10%;
-			left: 30%;
-			border:1px solid grey;
-			border-radius: 10px;
-			background-color: #FFF5A0;
-			font-family: helvetica,sans-serif;
-			height: 85%;
-			padding: 10px 15px 0 15px;
-			font-size: 150%;
-			opacity: 0;
-			overflow: auto;
-		}
+#no {
+  float: right;
+  margin-right: 35%;
+}
 
-		#cancel-user,#cancel-edit,#cancel-medicine{
-			margin-left: 10%;
-		}
+#add-user,
+#edit-user,
+#add-medicine {
+  position: absolute;
+  top: 15%;
+  left: 30%;
+  border: 1px solid grey;
+  border-radius: 10px;
+  background-color: #fff5a0;
+  font-family: helvetica, sans-serif;
+  height: 75%;
+  padding: 10px 15px 0 15px;
+  font-size: 150%;
+  opacity: 0;
+  overflow: auto;
+}
 
-		#submit-user,#submit-edit,#submit-medicine{
-			margin-left: 30%;
-			width: 80px;
-		}
+#add-medicine {
+  position: absolute;
+  top: 10%;
+  left: 30%;
+  border: 1px solid grey;
+  border-radius: 10px;
+  background-color: #fff5a0;
+  font-family: helvetica, sans-serif;
+  height: 85%;
+  padding: 10px 15px 0 15px;
+  font-size: 150%;
+  opacity: 0;
+  overflow: auto;
+}
 
-		.editable{
-			border:none;
-			margin-right: -120px;
-			width: 70%;
-		}
+#cancel-user,
+#cancel-edit,
+#cancel-medicine {
+  margin-left: 10%;
+}
 
-		.error_notice{
-			margin:0 auto;
-			width: 50%;
-		}
+#submit-user,
+#submit-edit,
+#submit-medicine {
+  margin-left: 30%;
+  width: 80px;
+}
 
-		table.table-bordered{
-		    border:1px solid black;
-		    margin-top:20px;
-		  }
-		table.table-bordered > thead > tr > th{
-		    border:1px solid black;
-		}
-		table.table-bordered > tbody > tr > td{
-		    border:1px solid black;
-		}
+.editable {
+  border: none;
+  margin-right: -120px;
+  width: 70%;
+}
 
-		th{
-			border:1px solid black !important;
-		}
+.error_notice {
+  margin: 0 auto;
+  width: 50%;
+}
 
-		#stock-table{
-			width: 70%;
-			background-color: white;
-			margin: 0 auto;
-			margin-top: 5%;
-			padding:0;
-		}
+table.table-bordered {
+  border: 1px solid black;
+  margin-top: 20px;
+}
+table.table-bordered > thead > tr > th {
+  border: 1px solid black;
+}
+table.table-bordered > tbody > tr > td {
+  border: 1px solid black;
+}
 
-		#search{
-			width: 250px;
-		}
+th {
+  border: 1px solid black !important;
+}
 
-		#add-container{
-			width: 70%;
-			margin:0 auto;
-			margin-top: 1%;
-		}
+#stock-table {
+  width: 70%;
+  background-color: white;
+  margin: 0 auto;
+  margin-top: 5%;
+  padding: 0;
+}
 
-		#add-med-btn{
-			position: fixed;
-		}
+#search {
+  width: 250px;
+}
 
-		.bill-btn{
-			margin-left: 5%;
-		}
+#add-container {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 1%;
+}
 
-		#content .images{
-			width: 210px;
-			height: 210px;
-			padding: 6px;
-			float: left;
-			margin:0 10% 8% 10%;
-			text-align: center;
-			font-family: helvetica,sans-serif;
-			font-size: 150%;
-			color:black;
-			position: relative;
-		}
+#add-med-btn {
+  position: fixed;
+}
 
-		#content a:hover{
-			text-decoration: none;
-		}
+.bill-btn {
+  margin-left: 5%;
+}
 
-		#content img:hover{
-			width: 150px;
-			transition: all 0.2s;
-		}
+#content .images {
+  width: 210px;
+  height: 210px;
+  padding: 6px;
+  float: left;
+  margin: 0 10% 8% 10%;
+  text-align: center;
+  font-family: helvetica, sans-serif;
+  font-size: 150%;
+  color: black;
+  position: relative;
+}
 
-		#content a{
-			color: black;
-		}
+#content a:hover {
+  text-decoration: none;
+}
 
-		.quantity{
-            width: 50px;
-        }
+#content img:hover {
+  width: 150px;
+  transition: all 0.2s;
+}
 
-        #edit-user-container{
-        	width: 60%;
-        	max-width: 400px;
-        	margin:0 auto;
-        	margin-top: 5%;
-        	margin-bottom: 5%;
-        	background-color: white;
-        	padding: 3%;
+#content a {
+  color: black;
+}
 
-        }
+.quantity {
+  width: 50px;
+}
 
-        #submit-edit{
-        	margin-left: 35%;
-		}
-		
-		#create-bill-container{
-            width: 70%;
-            background-color: #FFF5A0 !important;
-            margin: 0 auto;
-            margin-top: 1%;
-        }
+#edit-user-container {
+  width: 60%;
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  background-color: white;
+  padding: 3%;
+}
 
-        #final-bill{
-            width: 70%;
-            width: 70%;
-            background-color: white;
-            margin: 0 auto;
-            margin-top: 5%;
-            padding-top:1%;
-            text-align: center;
-        }
+#submit-edit {
+  margin-left: 35%;
+}
 
-        .customer-details{
-            font-family: helvetica,sans-serif;
-            font-size: 130%;
-            margin:1% 0 0 1%;
-        }
+#create-bill-container {
+  width: 70%;
+  background-color: #fff5a0 !important;
+  margin: 0 auto;
+  margin-top: 1%;
+}
 
-        #to-receipt{
-            display: none;
-		}
-		
-		.graph{
-            width: 400px;
-            height: 400px;
-            background-color: white;
-            float: left;
-            margin: 2% 2% 2% 12%;
-        }
+#final-bill {
+  width: 70%;
+  width: 70%;
+  background-color: white;
+  margin: 0 auto;
+  margin-top: 5%;
+  padding-top: 1%;
+  text-align: center;
+}
 
-        .title{
-            font-size: 130%;
-        }
+.customer-details {
+  font-family: helvetica, sans-serif;
+  font-size: 130%;
+  margin: 1% 0 0 1%;
+}
 
-        #dashboard-title{
-            font-family: helvetica,sans-serif;
-            font-size: 300%;
-            text-align: center;
-            margin-top: 1%;
-        }
+#to-receipt {
+  display: none;
+}
 
-        #timeline{
-            width: 40%;
-            margin: 0 30% 0 30%;
-		}
-		
-		#invoice-title{
-			text-align: center;
-			font-family: helvetica,sans-serif;
-			font-size: 300%;
-			margin-top: 1%;
-		}
+.graph {
+  width: 400px;
+  height: 400px;
+  background-color: white;
+  float: left;
+  margin: 2% 2% 2% 12%;
+}
 
-		#address-head{
-			font-size: 130%;
-			width: 40%;
-		}
+.title {
+  font-size: 130%;
+}
 
-		#address-body{
-			font-size: 80%;
-			width: 110px;
-		}
+#dashboard-title {
+  font-family: helvetica, sans-serif;
+  font-size: 300%;
+  text-align: center;
+  margin-top: 1%;
+}
 
-		#customer-details{
-			float: right;
-			margin-right: 4%;
-		}
+#timeline {
+  width: 40%;
+  margin: 0 30% 0 30%;
+}
 
-		#receipt-body{
-			width: 90%;
-			margin:0 auto;
-		}
+#invoice-title {
+  text-align: center;
+  font-family: helvetica, sans-serif;
+  font-size: 300%;
+  margin-top: 1%;
+}
 
-		.clear{
-			clear: both;
-		}
+#address-head {
+  font-size: 130%;
+  width: 40%;
+}
 
-		#address-container{
-			width: 40%;
-			float: left;
-			margin-left: 5%;
-		}
+#address-body {
+  font-size: 80%;
+  width: 110px;
+}
+
+#customer-details {
+  float: right;
+  margin-right: 4%;
+}
+
+#receipt-body {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.clear {
+  clear: both;
+}
+
+#address-container {
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+}
