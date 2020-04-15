@@ -89,16 +89,10 @@
 
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
-    <style type="text/css">
-        body{
-            margin:0;
-            padding:0;
-            background-color: #fff5a0 ;
-        }
-    </style>
+
 </head>
 <body>  
-    <p style="font-size: 300%;font-family: helvetica,sans-serif;text-align: center;">Edit User</p>
+    <p id="edit-user-title">Edit User</p>
         <div id="edit-user-container" class="shadow p-3 mb-5 bg-white rounded">
             <?php echo $error_msg.$success_msg; ?>
             <form method="post" style="font-size: 100%;">

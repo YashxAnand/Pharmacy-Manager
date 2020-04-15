@@ -37,43 +37,10 @@
 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-
+	<link rel="stylesheet" type='text/css' href='css/style.css'>
 	<style type="text/css">
-		#invoice-title{
-			text-align: center;
-			font-family: helvetica,sans-serif;
-			font-size: 300%;
-			margin-top: 1%;
-		}
-
-		#address-head{
-			font-size: 130%;
-			width: 40%;
-		}
-
-		#address-body{
-			font-size: 80%;
-			width: 110px;
-		}
-
-		#customer-details{
-			float: right;
-			margin-right: 4%;
-		}
-
-		#receipt-body{
-			width: 90%;
-			margin:0 auto;
-		}
-
-		.clear{
-			clear: both;
-		}
-
-		#address-container{
-			width: 40%;
-			float: left;
-			margin-left: 5%;
+		body{
+			background-color:white !important;
 		}
 	</style>
 </head>
