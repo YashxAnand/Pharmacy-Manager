@@ -24,7 +24,7 @@
                     <div class="images"><a href="dashboard.php"><img src="Images/dashboard.jpg" width="140" style="border-radius: 50%"><p>Dashboard</p></a></div>
                     <div class="images"><a href="billing.php"><img src="Images/bill.jpg" width="140" style="border-radius: 50%"><p>Billing</p></a></div>
                     <div class="images"><a href="stocks.php"><img src="Images/stock.jpg" width="140" style="border-radius: 50%"><p>Stock</p></a></div>                  
-                    <div class="images"><a href="<?php echo $logout_link; ?>"><img src="Images/logout.jpg" width="140" style="border-radius: 50%"><p>Log Out</p></a></div>
+                    <div class="images"><a href="index.php?logout=1"><img src="Images/logout.jpg" width="140" style="border-radius: 50%"><p>Log Out</p></a></div>
                 </div>';
 
     $content = $div;
@@ -63,7 +63,7 @@
 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 
     <style type="text/css">
     </style>
@@ -120,7 +120,7 @@
 	
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
-	<script type="text/javascript" src="script.js">
+	<script type="text/javascript" src="js/script.js">
 	</script>
 </body>
 </html>
