@@ -60,35 +60,6 @@
 
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 
-    <style type="text/css">
-        #create-bill-container{
-            width: 70%;
-            background-color: #FFF5A0 !important;
-            margin: 0 auto;
-            margin-top: 1%;
-        }
-
-        #final-bill{
-            width: 70%;
-            width: 70%;
-            background-color: white;
-            margin: 0 auto;
-            margin-top: 5%;
-            padding-top:1%;
-            text-align: center;
-        }
-
-        .customer-details{
-            font-family: helvetica,sans-serif;
-            font-size: 130%;
-            margin:1% 0 0 1%;
-        }
-
-        #to-receipt{
-            display: none;
-        }
-    </style>
-
 </head>
 <body>
 	<div id="main-container-pages">

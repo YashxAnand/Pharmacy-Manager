@@ -27,11 +27,11 @@
     	        </a>
     	    </nav>
 
-    	    <div id="content" style="margin-left: 23%;margin-top: 5%;width: 70%;overflow: auto;">
-    	    		<div class="images"><a href="dashboard.php"><img src="Images/dashboard.jpg" width="140" style="border-radius: 50%"><p>Dashboard</p></a></div>
-    	    		<div class="images"><a href="users.php"><img src="Images/users.jpg" width="140" style="border-radius: 50%"><p>Users</p></a></div>
-    	    		<div class="images"><a href="stocks.php"><img src="Images/stock.jpg" width="140" style="border-radius: 50%"><p>Stock</p></a></div>  	    		
-    	    		<div class="images"><a href=<?php echo $logout_link; ?>><img src="Images/logout.jpg" width="140" style="border-radius: 50%"><p>Logout</p></a></div>
+    	    <div id="content">
+    	    		<div class="images"><a href="dashboard.php"><img src="Images/dashboard.jpg" width="140" ><p>Dashboard</p></a></div>
+    	    		<div class="images"><a href="users.php"><img src="Images/users.jpg" width="140" ><p>Users</p></a></div>
+    	    		<div class="images"><a href="stocks.php"><img src="Images/stock.jpg" width="140" ><p>Stock</p></a></div>  	    		
+    	    		<div class="images"><a href=<?php echo $logout_link; ?>><img src="Images/logout.jpg" width="140"><p>Logout</p></a></div>
     	    </div>
 
     </div>
